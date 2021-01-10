@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    border: 10px solid rgb(33, 136, 206);
+    width: 75%;
+    height: 80vh;
+    margin: 50px auto;
+    background-color: rgb(54, 75, 75);
+}
+
+header, h1 {
+    color: white;
+    text-align: center;
+    background-color: rgb(68, 78, 122);
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.eat {
+    margin-top: 5px;
+    margin-left: 1%;
+    width: 48%;
+    height: 57vh;
+    border: 2px solid yellow;
+    float: left;
+}
+
+.water {
+    margin-top: 5px;
+    margin-right: 1%;
+    width: 48%;
+    height: 57vh;
+    border: 2px solid yellow;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
