@@ -1,12 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopping</title>
+    <link rel="icon" href="images/icon.png" type="icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <header>
+            <h1>Diner Shopping List</h1>
+        </header>
+
+
+        <form action="#" method="post">
+            <div class="eat">
+                <h3>Выберите закуски:</h3>
+
+                <ul>
+                    <li>
+                        <input type="checkbox" id="ch" name="закуски" value="Чипсы">
+                        <label for="ch">Чипсы </label>
+                    </li>
+                    
+                    <li>
+                        <input type="checkbox" id="po" name="закуски" value="Фри">
+                        <label for="po">Картофель - фри</label>
+                    </li>
+                    
+                    <li>
+                        <input type="checkbox" id="ma" name="закуски" value="Манго">
+                        <label for="ma">Сушенный Манго</label>
+                    </li>
+                    
+                    <li>
+                        <input type="checkbox" id="bu" name="закуски" value="Бублики">
+                        <label for="bu">Бублики</label>
+                    </li>
+                    
+                    <li><input type="checkbox" id="va" name="закуски" value="вафли">
+                        <label for="va">Вафли</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="sl" name="закуски" value="сл. вата">
+                        <label for="sl">Сладкая вата</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="cha" name="закуски" value="чурчхелла">
+                        <label for="cha">Чурчхелла</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="kr" name="закуски" value="криветки">
+                        <label for="kr">Криветки</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="chi" name="закуски" value="сырные палки">
+                        <label for="chi">Сырные палочки</label>
+                    </li> 
+                    
+                    <li>
+                        <input type="checkbox" id="sir" name="закуски" value="ырники">
+                        <label for="sir">Сырники</label>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="water">
+                <h3>Выберите напитки:</h3>
+
+                <ul>
+                    <li>
+                        <input type="checkbox" id="col" name="Напитки:" value="Кока кола">
+                        <label for="col">Cola</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="spr" name="Напитки:" value="Спрайт">
+                        <label for="spr">Sprite</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="mir" name="Напитки:" value="Миринда">
+                        <label for="mir">Mirinda</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="koo" name="Напитки:" value="холодный чай">
+                        <label for="koo">Kool-tea</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="hot" name="Напитки:" value="гаряч. чай">
+                        <label for="hot">Hot-tea</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="fan" name="Напитки:" value="Фанта">
+                        <label for="fan">Fanta</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="pep" name="Напитки:" value="Пепси">
+                        <label for="pep">Pepsi</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="7up" name="Напитки:" value="7ап">
+                        <label for="7up">7up</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="sok" name="Напитки:" value="Сок">
+                        <label for="sok">juice</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="cof" name="Напитки:" value="Кофе">
+                        <label for="cof">Coffe</label>
+                    </li>
+
+                </ul>
+
+            </div>
+            <input type="reset" class="reset">
+            <!-- <input type="submit" id="submit"> -->
+            <button type="submit" id="submit">Заказываю!</button>
+        </form>
+    </div>
 </body>
 </html>
